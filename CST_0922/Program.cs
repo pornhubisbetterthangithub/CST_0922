@@ -13,7 +13,7 @@ namespace CST_0922
         static Random rnd = new Random();
         static void Main(string[] args)
         {
-        /*    Console.WriteLine("////////////////////////////2.///////////////////////////////");
+            Console.WriteLine("////////////////////////////2.///////////////////////////////");
             //2.
             int[] tomb = new int[20];
              List<int> szam0 = new List<int>();
@@ -40,9 +40,9 @@ namespace CST_0922
                  Console.Write(szam0[i]+" ");
              }
 
-        */
+        
             //6.
-        /*
+        
             Console.WriteLine("\n////////////////////////////6.///////////////////////////////");
             Console.WriteLine("50db random 2 jegyű számok: ");
             int[] t = new int[50];
@@ -51,9 +51,9 @@ namespace CST_0922
                 t[i] = rnd.Next(10, 100);
                 Console.Write(t[i] + " ");
             }
-        */
+        
             //5.
-        /*    Console.WriteLine("\n////////////////////////////5.///////////////////////////////");
+            Console.WriteLine("\n////////////////////////////5.///////////////////////////////");
             
             int ker = 13;
             bool van = false;
@@ -77,7 +77,7 @@ namespace CST_0922
                 
             }
             Console.WriteLine($"\nIgaz-e, hogy van 13-as a tömbben?: {van}");
-        */
+        
             Console.WriteLine("\n////////////////////////////1.///////////////////////////////");
             string[] nevTomb = { "Peti", "Panni", "Fanni", "Kati", "Béla" };
             int[] magTomb = new int [5];
